@@ -1,10 +1,17 @@
 <odoo>
     <data>
-        <!--  -->
-        <!--   <record id="object0" model="odoo_testing.odoo_testing"> -->
-        <!--     <field name="name">Object 0</field> -->
-        <!--     <field name="value">0</field> -->
-        <!--   </record> -->
+
+           <record id="object0" model="odoo_testing.Pagos">
+             <field name="name">Pedro Perez</field>
+             <field name="telefono">6562357524</field>
+             <field name="email"></field>
+             <field name="costoTotal">10000.23</field>
+             <field name="descripcion">el cliente es una familia de varios integrantes.
+                3 hijos, padre y madre, el menor tiene 5 agnos
+                </field>
+             <field name="direccion">calle falsa 123</field>
+             <field name="viaje">2017vall01</field>
+           </record>
         <!--  -->
         <!--   <record id="object1" model="odoo_testing.odoo_testing"> -->
         <!--     <field name="name">Object 1</field> -->
@@ -13,6 +20,7 @@
         <!--  -->
         <!--   <record id="object2" model="odoo_testing.odoo_testing"> -->
         <!--     <field name="name">Object 2</field> -->
+
         <!--     <field name="value">20</field> -->
         <!--   </record> -->
         <!--  -->

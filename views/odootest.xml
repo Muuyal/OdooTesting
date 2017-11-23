@@ -1,0 +1,28 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="pagos_form_view">
+      <field name="name">pago.form</field>
+      <field name="model">odoo_test.pagos</field>
+      <field name="arch" type="xml">
+        <form string="Forma de pagos">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name=""description/>
+            </group>
+            <notebook>
+              <page string="Description">
+                <field name="description"/>
+              </page>
+              <page string="About">
+                Dis is a notebook e.g.
+              </page>
+
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+  </data>
+</odoo>
